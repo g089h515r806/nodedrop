@@ -1,0 +1,68 @@
+{
+  "name": "nodedrop",
+  "description": "Node Drop CMS",
+  "version": "1.0.0",
+  "author": "Howard Ge",
+  "keywords": [
+    "koa",
+    "rest",
+    "api",
+    "mongodb",
+    "mongoose",
+    "async",
+    "es7"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g089h515r806/nodedrop.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g089h515r806/nodedrop/issues"
+  },
+  "homepage": "https://github.com/g089h515r806/nodedrop#readme",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/ --exec babel-node",
+    "build": "babel src -d dist",
+    "lint": "eslint ./src",
+    "prod": "npm run build && node dist/"
+  },
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "api-query-params": "^5.0.0",
+    "babel-polyfill": "^6.5.0",
+    "bcryptjs": "^2.4.1",
+    "glob": "^7.1.2",
+    "jsonwebtoken": "^8.1.1",
+    "koa": "^2.4.1",
+    "koa-body": "^4.1.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-helmet": "^4.0.0",
+    "koa-jwt": "^3.3.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.3.0",
+    "koa-static": "^5.0.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.0.1",
+    "transliteration": "^2.1.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-plugin-syntax-async-functions": "^6.5.0",
+    "babel-plugin-transform-async-to-generator": "^6.5.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "chai": "^4.1.2",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.8.1",
+    "should": "^13.1.3",
+    "supertest": "^3.0.0"
+  }
+}

@@ -15,3 +15,5 @@ Install it:
 4, run npm start for server.
 5, run npm start for admin.
 6, visit http://localhost:3000/#/system/install page, config the administrator and install it. After that you could login it.
+
+

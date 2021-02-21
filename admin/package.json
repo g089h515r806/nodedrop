@@ -1,0 +1,44 @@
+{
+  "name": "nodedrop-admin",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://g089h515r806.github.io/nodedrop-admin",
+  "dependencies": {
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
+    "axios": "^0.18.0",
+    "draft-js": "^0.11.4",
+    "draftjs-to-html": "^0.9.1",
+    "es6-promise": "^4.2.6",
+    "gh-pages": "^2.0.1",
+    "i18next": "^19.8.4",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.24.0",
+    "query-string": "^6.2.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-draft-wysiwyg": "^1.14.4",
+    "react-dropzone": "^10.2.1",
+    "react-i18next": "^11.8.5",
+    "react-router-dom": "^4.4.0-beta.8",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
